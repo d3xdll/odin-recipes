@@ -1,14 +1,10 @@
 * {
   font-family: 'Montserrat', sans-serif;
-  background-color: ;
 }
 
-a:link:active:visited {
-  color:blue;
-}
-
-a:hover {
-  color: green;
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .title.main {
@@ -17,14 +13,20 @@ a:hover {
   margin-left: 20px;
   margin: 0px 20px;
   text-align: left;
+  color: rgb(8, 243, 243);
 }
 
 .title.less {
   font-family: 'Space Mono', monospace;
   font-size: 24px;
   text-align: center;
-
 }
+
+.descr {
+  text-align: right;
+  font-size: 18px;
+}
+
 nav .title.less{
   font-size: 20px;
 }
@@ -32,4 +34,19 @@ nav .title.less{
 #firstHeader {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.firstItem{
+  background-color: cornflowerblue;
+  text-align: right;
+}
+
+.secondItem{
+  background-color: aquamarine;
+  text-align: right;
+}
+
+.thirdItem{
+  background-color: chartreuse;
+  text-align: right;
 }
